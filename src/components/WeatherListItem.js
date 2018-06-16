@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class WeatherListItem extends Component {
 
-
 render () {
     const { day } = this.props;
     const date = new Date(day.dt * 1000);

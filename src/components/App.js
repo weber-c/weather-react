@@ -28,9 +28,8 @@ class App extends Component {
        alert(error);
     });
 
-   // this.setState( {zipcode} ); //or {zipcode: zipcode}
     }
-    // <WeatherList days={this.state.dates} />
+
   render() {
     return (
       <div className="App">
